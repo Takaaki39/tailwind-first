@@ -2,7 +2,7 @@
 
 ## 環境構築
 
-###Dockerビルド
+### Dockerビルド
 
 1. git clone git@github.com:Takaaki39/tailwind-first.git
 2. cd tailwind/
