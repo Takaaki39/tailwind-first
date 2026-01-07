@@ -1,0 +1,17 @@
+module.exports = {
+  plugins: ["@prettier/plugin-php", "prettier-plugin-blade"],
+  overrides: [
+    {
+      files: ["*.php"],
+      options: {
+        parser: "php",
+      },
+    },
+    {
+      files: ["*.blade.php"],
+      options: {
+        parser: "blade",
+      },
+    },
+  ],
+};
